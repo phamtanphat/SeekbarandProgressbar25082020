@@ -55,6 +55,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
             <SeekBar
+                android:max="255"
                 android:progressTint="#919191"
                 android:progressBackgroundTint="#CC919191"
                 android:id="@+id/seekbarAlpha"
@@ -79,6 +80,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
             <SeekBar
+                android:max="255"
                 android:id="@+id/seekbarRed"
                 android:progressTint="#FF0000"
                 android:progressBackgroundTint="#CCFF0000"
@@ -103,6 +105,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
             <SeekBar
+                android:max="255"
                 android:progressTint="#6AB36D"
                 android:progressBackgroundTint="#CC6AB36D"
                 android:id="@+id/seekbarGreen"
@@ -127,6 +130,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
             <SeekBar
+                android:max="255"
                 android:progressTint="#42A5F5"
                 android:progressBackgroundTint="#CC42A5F5"
                 android:id="@+id/seekbarBlue"
